@@ -2,8 +2,7 @@
 using namespace std;
 
 class MinPriorityQueue {
-    int arr[100];   // fixed size array
-    int size;
+    int arr[100], size;
 
 public:
     MinPriorityQueue() {
@@ -87,7 +86,6 @@ int main() {
     int choice, val;
 
     do {
-        cout << "\n--- Min Priority Queue Menu ---\n";
         cout << "1. Insert\n2. Get Min\n3. Remove Min\n4. Display (Min→Max)\n5. Exit\n";
         cout << "Enter choice: ";
         cin >> choice;
