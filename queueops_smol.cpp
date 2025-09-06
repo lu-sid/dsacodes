@@ -54,7 +54,6 @@ int main() {
     int choice, value;
 
     do {
-        cout << "\n--- Queue Operations ---" << endl;
         cout << "1. Insert (Enqueue)" << endl;
         cout << "2. Remove (Dequeue)" << endl;
         cout << "3. Display" << endl;
