@@ -58,10 +58,21 @@ public:
             cout << "Queue is empty!\n";
             return;
         }
-        for (int i = 0; i < size; i++) {
-            cout << arr[i] << " ";
+       int temp[100];
+       for(int i = 0; i < size; i++){
+        temp[i] = arr[i] ;
+       }
+       for(int i = 0; i < size - 1; i++){
+        for(int j = i + 1; j < size; j++){
+            if(temp[i] < temp[j]){
+                swap(temp[i], temp[j]) ;
+            }
         }
-        cout << endl;
+       }
+       for(int i = 0; i <size; i++){
+        cout << temp[i] << " " ;
+       }
+       cout << endl ;
     }
 };
 
