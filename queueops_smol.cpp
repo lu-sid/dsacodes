@@ -4,8 +4,7 @@ using namespace std;
 #define SIZE 5   // Maximum size of queue
 
 class Queue {
-    int arr[SIZE];
-    int front, rear;
+    int arr[SIZE], front, rear;
 
 public:
     Queue() {
